@@ -3,7 +3,6 @@ module.exports = {
     title: 'mikek.ee',
     description: "there's no place like home"
   },
-  pathPrefix: "/mikek.ee",
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
