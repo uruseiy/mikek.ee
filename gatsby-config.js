@@ -24,13 +24,28 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         excerpt_separator: `<!-- end -->`,
-        plugins: [{
+        plugins: [
+          "gatsby-remark-copy-images",
+          {
+            resolve: "gatsby-remark-flowchart",
+            options: {
+              'theme': 'hand'
+            }
+          },
+          {
+            resolve: "gatsby-remark-sequence",
+            options: {
+              'theme': 'hand'
+            }
+          },
+          {
             resolve: 'gatsby-remark-prismjs',
             options: {
               classPrefix: "language-",
               inlineCodeMarker: '±'
             }
-        }]
+          }
+        ]
       }
     },
     "gatsby-transformer-sharp",

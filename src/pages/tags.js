@@ -16,11 +16,16 @@ const IndexPage = ({data}) => (
 export default IndexPage
 
 export const query = graphql`
-query PostIndex {
-  allMarkdownRemark(sort: {
-    fields: [frontmatter___date],
-    order: DESC
-  }) {
+query TaggedPostIndex {
+  allMarkdownRemark(
+    sort: {
+      fields: [frontmatter___date],
+      order: DESC
+    }
+    filter: {
+      frontmatter: {tags: {eq: "abc"}}
+    }
+  ) {
     edges {
       node {
         id
@@ -31,7 +36,6 @@ query PostIndex {
         frontmatter {
           title
           date (formatString: "D MMMM YYYY")
-          tags
         }
       }
     }

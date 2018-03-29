@@ -7,6 +7,7 @@ const PostListing = ({post}) => (
       <h3>{post.frontmatter.title}</h3>
     </Link>
     <span>{post.frontmatter.date}</span>
+    {post.frontmatter.tags}
     <p>{post.excerpt}</p>
   </article>
 )

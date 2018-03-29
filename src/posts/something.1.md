@@ -1,6 +1,9 @@
 ---
 title: "Some other thing"
 date: "2018-02-20"
+tags: 
+    - "abc"
+    - "xyz"
 ---
 Lorem ipsum dolor amet meggings austin cronut literally blue bottle tattooed. Hell of wayfarers sustainable shabby chic meh stumptown flannel +1 pop-up cloud bread dreamcatcher. Portland venmo mustache distillery synth chillwave. <!-- end -->Hot chicken tofu bicycle rights, chambray small batch copper mug squid hexagon DIY snackwave biodiesel unicorn craft beer. Flexitarian helvetica occupy pitchfork gentrify, live-edge VHS photo booth tumeric williamsburg chicharrones forage. Small batch vinyl leggings dreamcatcher pop-up butcher, shaman paleo.
 
